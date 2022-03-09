@@ -6,10 +6,9 @@ class CallCenter {
 		console.log(`Hello this is ${this.name}`);
 	}
 	callMeLater(delay) {
-		setTimeout(() => this.sayHello())
+		setTimeout(() => this.sayHello(), delay)
 	}
 }
-
 
 /*****************************************************************************/
 /***************** DO NOT MODIFY ANYTHING UNDER THIS LINE ********************/
